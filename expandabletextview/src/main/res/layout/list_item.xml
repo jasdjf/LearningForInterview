@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.jasdjf.expandabletextview.ExpandableTextView
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+android:id="@+id/expand_text_view"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:layout_margin="15dp"
+android:lineSpacingExtra="4dp"
+android:textSize="14sp"
+app:shrink_color="@color/colorAccent"
+app:shrink_text="收回"
+app:expand_color="@color/colorAccent"
+app:expand_text="展开"
+app:max_line="4"/>

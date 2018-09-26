@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/root_layout"
+    tools:context=".MainActivity">
+
+    <com.jasdjf.expandabletextview.ExpandableTextView
+        android:id="@+id/expand_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:lineSpacingExtra="4dp"
+        android:textSize="30sp"
+        app:shrink_color="@color/colorPrimaryDark"
+        app:shrink_text="收回全部"
+        app:link_color="@color/colorPrimary"
+        app:link_text="link"
+        app:link_res="@mipmap/link"
+        app:mention_color="@android:color/holo_blue_light"
+        app:expand_color="@color/colorAccent"
+        app:expand_text="展开"
+        app:max_line="4"/>
+    <!--<ListView
+        android:id="@+id/list_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>-->
+
+</android.support.constraint.ConstraintLayout>
