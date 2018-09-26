@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ExpandableTextView">
+        <!--最大显示行数，超过此行数进行折叠-->
+        <attr name="max_line" format="integer" />
+        <!--是否开启文字收缩展开功能-->
+        <attr name="expandable" format="boolean" />
+        <!--是否需要对@用户进行处理 -->
+        <attr name="deal_mention" format="boolean" />
+        <!--是否需要对链接进行处理 -->
+        <attr name="deal_link" format="boolean" />
+        <!--收起处显示的文字-->
+        <attr name="shrink_text" format="string" />
+        <!--展开处显示的文字-->
+        <attr name="expand_text" format="string" />
+        <!--展开的文字的颜色-->
+        <attr name="expand_color" format="color" />
+        <!--收起的文字的颜色-->
+        <attr name="shrink_color" format="color" />
+        <!--链接的文字的颜色-->
+        <attr name="link_color" format="color" />
+        <!--链接的图标-->
+        <attr name="link_res" format="reference" />
+        <!--链接的显示文字-->
+        <attr name="link_text" format="string" />
+        <!--@用户的文字的颜色-->
+        <attr name="mention_color" format="color" />
+    </declare-styleable>
+</resources>
