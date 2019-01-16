@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/ActivityLib" />
+            <option value="$PROJECT_DIR$/dealpicture" />
+            <option value="$PROJECT_DIR$/displaybitmapsample" />
+            <option value="$PROJECT_DIR$/dynasicregisterso" />
+            <option value="$PROJECT_DIR$/expandabletextview" />
+            <option value="$PROJECT_DIR$/finallyreturn" />
+            <option value="$PROJECT_DIR$/launchmode" />
+            <option value="$PROJECT_DIR$/loadpicture" />
+            <option value="$PROJECT_DIR$/sortalgorithm" />
+            <option value="$PROJECT_DIR$/testanimation" />
+            <option value="$PROJECT_DIR$/testbinder" />
+            <option value="$PROJECT_DIR$/testbinderpool" />
+            <option value="$PROJECT_DIR$/testdelegate" />
+            <option value="$PROJECT_DIR$/testdynamicso" />
+            <option value="$PROJECT_DIR$/testgaodeapi" />
+            <option value="$PROJECT_DIR$/testhttpurlconnection" />
+            <option value="$PROJECT_DIR$/testinternet" />
+            <option value="$PROJECT_DIR$/testjni" />
+            <option value="$PROJECT_DIR$/testjson" />
+            <option value="$PROJECT_DIR$/testmvp" />
+            <option value="$PROJECT_DIR$/testobserver" />
+            <option value="$PROJECT_DIR$/testso" />
+            <option value="$PROJECT_DIR$/testzxing" />
+            <option value="$PROJECT_DIR$/updateuionnonuithread" />
+          </set>
+        </option>
+        <option name="resolveModulePerSourceSet" value="false" />
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

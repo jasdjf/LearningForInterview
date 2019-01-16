@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<slide xmlns:android="http://schemas.android.com/apk/res/android"
+    android:duration="1000"
+    android:slideEdge="left">
+<!--slideEdge用于指定从那个方向滑入-->
+
+    <targets>
+        <!--<target android:targetId="@id/btn_transition_share_element_in_activity"/>--><!--指定动画只对某个控件生效-->
+        <target android:excludeId="@id/transition_textview"/><!--指定动画只对某个控件不生效-->
+    </targets>
+
+</slide>

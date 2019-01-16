@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/vector_drawable"
+            android:layout_width="150dp"
+            android:layout_height="48dp"
+            android:layout_margin="20dp"
+            android:background="@drawable/vector_search_line_selector"/>
+
+        <ImageView
+            android:id="@+id/vector_search"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:src="@drawable/src_vector_drawable"/>
+        <!--app:srcCompat="@drawable/src_vector_drawable"-->
+
+        <ImageView
+            android:id="@+id/vector_focaltech"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            app:srcCompat="@drawable/src_vector_focaltech"/>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

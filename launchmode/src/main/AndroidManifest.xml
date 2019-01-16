@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.jasdjf.launchmode">
+
+    <application
+        android:allowBackup="false"
+        android:icon="@mipmap/ic_launcher"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.jasdjf.launchmode.MainActivity"
+                  android:label="MainActivity">
+            <intent-filter android:label="LaunchMode">
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.jasdjf.launchmode.BaseActivity"/>
+        <activity android:name="com.jasdjf.launchmode.StandradActivity"
+                  android:label="StandradActivity"
+                  android:taskAffinity="com.jasdjf.standard"/>
+        <activity android:name="com.jasdjf.launchmode.SingleTopActivity"
+                  android:label="SingleTopActivity"
+                  android:launchMode="singleTop"
+                  android:taskAffinity="com.jasdjf.singletop"/>
+        <activity android:name="com.jasdjf.launchmode.SingleTaskActivity"
+                  android:label="SingleTaskActivity"
+                  android:launchMode="singleTask"
+                  android:taskAffinity="com.jasdjf.singletask"/>
+        <activity android:name="com.jasdjf.launchmode.SingleInstanceActivity"
+                  android:label="SingleInstanceActivity"
+                  android:launchMode="singleInstance"
+                  android:taskAffinity="com.jasdjf.singleinstance"/>
+    </application>
+
+</manifest>

@@ -1,0 +1,19 @@
+<vector android:height="48dp"
+    android:viewportHeight="48.0" android:viewportWidth="150.0"
+    android:width="150dp" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <path
+        android:name="search"
+        android:pathData="M138,35 A13,13 0 1,1 139,34 L149,47"
+        android:strokeColor="#FF2276BB"
+        android:strokeLineCap="round"
+        android:trimPathStart="1"
+        android:strokeWidth="2"/>
+
+    <path
+        android:name="line"
+        android:pathData="M148,47  L0,47"
+        android:strokeColor="#FF2276BB"
+        android:strokeLineCap="square"
+        android:strokeWidth="2"/>
+</vector>

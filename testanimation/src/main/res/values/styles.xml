@@ -1,0 +1,60 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+
+    <style name="TranslateActivity" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/activity_open_enter</item><!--A进入B时，B的进入动画-->
+        <item name="android:activityOpenExitAnimation">@anim/activity_open_exit</item><!--A进入B时，A的退出动画-->
+    </style>
+    <style name="TranslateExitActivity" parent="@android:style/Animation.Activity">
+        <item name="android:activityCloseEnterAnimation">@anim/activity_close_enter</item><!--B退回A时，A的进入动画-->
+        <item name="android:activityCloseExitAnimation">@anim/activity_close_exit</item><!--B退回A时，B的退出动画-->
+    </style>
+
+    <style name="MyTheme" parent="AppTheme">
+        <item name="android:windowAnimationStyle">@style/TranslateExitActivity</item>
+    </style>
+    <style name="MyTheme1" parent="AppTheme">
+        <item name="android:windowAnimationStyle">@style/TranslateActivity</item>
+    </style>
+
+    <style name="TransitionActivity" parent="AppTheme">
+        <item name="android:windowContentTransitions">true</item>
+
+        <!--A和B的要分开设置-->
+        <item name="android:windowEnterTransition">@transition/activity_explode</item><!--A进入B时，B的进入动画-->
+        <item name="android:windowReturnTransition">@transition/activity_fade</item><!--B退回A时，B的退出动画-->
+
+        <item name="android:windowSharedElementEnterTransition">@transition/changebounds</item><!--A进入B时，B的进入动画-->
+        <item name="android:windowSharedElementReturnTransition">@transition/changebounds</item><!--B退回A时，B的退出动画-->
+
+        <item name="android:windowSharedElementsUseOverlay">true</item>
+    </style>
+    <style name="TransitionExitActivity" parent="AppTheme">
+        <item name="android:windowContentTransitions">true</item>
+
+        <!--要想这里A和B的转场动画都生效，两个Activity必须都将windowContentTransitions设置为true-->
+        <item name="android:windowExitTransition">@transition/activity_slide</item><!--A进入B时，A的退出动画-->
+        <item name="android:windowReenterTransition">@transition/activity_slide</item><!--B退回A时，A的恢复动画-->
+
+        <item name="android:windowSharedElementExitTransition">@transition/changebounds</item>
+        <item name="android:windowSharedElementReenterTransition">@transition/changebounds</item>
+
+        <item name="android:windowSharedElementsUseOverlay">true</item>
+    </style>
+</resources>

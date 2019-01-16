@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ActivityLib/ActivityLib.iml" filepath="$PROJECT_DIR$/ActivityLib/ActivityLib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LearningForInterview.iml" filepath="$PROJECT_DIR$/LearningForInterview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dealpicture/dealpicture.iml" filepath="$PROJECT_DIR$/dealpicture/dealpicture.iml" />
+      <module fileurl="file://$PROJECT_DIR$/displaybitmapsample/displaybitmapsample.iml" filepath="$PROJECT_DIR$/displaybitmapsample/displaybitmapsample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dynasicregisterso/dynasicregisterso.iml" filepath="$PROJECT_DIR$/dynasicregisterso/dynasicregisterso.iml" />
+      <module fileurl="file://$PROJECT_DIR$/expandabletextview/expandabletextview.iml" filepath="$PROJECT_DIR$/expandabletextview/expandabletextview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/finallyreturn/finallyreturn.iml" filepath="$PROJECT_DIR$/finallyreturn/finallyreturn.iml" />
+      <module fileurl="file://$PROJECT_DIR$/launchmode/launchmode.iml" filepath="$PROJECT_DIR$/launchmode/launchmode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/loadpicture/loadpicture.iml" filepath="$PROJECT_DIR$/loadpicture/loadpicture.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sortalgorithm/sortalgorithm.iml" filepath="$PROJECT_DIR$/sortalgorithm/sortalgorithm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/testanimation/testanimation.iml" filepath="$PROJECT_DIR$/testanimation/testanimation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/testbinder/testbinder.iml" filepath="$PROJECT_DIR$/testbinder/testbinder.iml" />
+      <module fileurl="file://$PROJECT_DIR$/testbinderpool/testbinderpool.iml" filepath="$PROJECT_DIR$/testbinderpool/testbinderpool.iml" />
+      <module fileurl="file://$PROJECT_DIR$/testdelegate/testdelegate.iml" filepath="$PROJECT_DIR$/testdelegate/testdelegate.iml" />
+      <module fileurl="file://$PROJECT_DIR$/testdynamicso/testdynamicso.iml" filepath="$PROJECT_DIR$/testdynamicso/testdynamicso.iml" />
+      <module fileurl="file://$PROJECT_DIR$/testgaodeapi/testgaodeapi.iml" filepath="$PROJECT_DIR$/testgaodeapi/testgaodeapi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/testhttpurlconnection/testhttpurlconnection.iml" filepath="$PROJECT_DIR$/testhttpurlconnection/testhttpurlconnection.iml" />
+      <module fileurl="file://$PROJECT_DIR$/testinternet/testinternet.iml" filepath="$PROJECT_DIR$/testinternet/testinternet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/testjni/testjni.iml" filepath="$PROJECT_DIR$/testjni/testjni.iml" />
+      <module fileurl="file://$PROJECT_DIR$/testjson/testjson.iml" filepath="$PROJECT_DIR$/testjson/testjson.iml" />
+      <module fileurl="file://$PROJECT_DIR$/testmvp/testmvp.iml" filepath="$PROJECT_DIR$/testmvp/testmvp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/testobserver/testobserver.iml" filepath="$PROJECT_DIR$/testobserver/testobserver.iml" />
+      <module fileurl="file://$PROJECT_DIR$/testso/testso.iml" filepath="$PROJECT_DIR$/testso/testso.iml" />
+      <module fileurl="file://$PROJECT_DIR$/testzxing/testzxing.iml" filepath="$PROJECT_DIR$/testzxing/testzxing.iml" />
+      <module fileurl="file://$PROJECT_DIR$/updateuionnonuithread/updateuionnonuithread.iml" filepath="$PROJECT_DIR$/updateuionnonuithread/updateuionnonuithread.iml" />
+    </modules>
+  </component>
+</project>

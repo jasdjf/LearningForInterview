@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="FrameAnimationSurfaceView">
+        <attr name="repeateMode" format="enum">
+            <enum name="restart" value="0"/>
+            <enum name="reverse" value="1"/>
+        </attr>
+        <attr name="repeateCount" format="integer">
+            <enum name="infinite" value="-1"/>
+        </attr>
+        <attr name="duration" format="integer"/>
+        <attr name="resource" format="reference"/>
+    </declare-styleable>
+</resources>
+<!--
+enum和flag的区别：
+enum：表示attr是枚举类型，在定义enum类型的attr时，可以将attr的format设置为enum，也可以不用设置attr的format
+    属性，但是必须在attr节点下面添加一个或多个enum节点。取值时只能取其中一个枚举值
+flag：表示attr是bit位标记，flag与enum有相似之处，定义了flag的attr，在设置值时，可以通过|设置多个值，而且每个
+    值都对应一个bit位，这样通过按位或操作符|可以将多个值合成一个值，我们一般在用flag表示某个字段支持多个特性，
+    需要注意的是，要想使用flag类型，不能在attr上设置format为flag，不要设置attr的format的属性，直接在attr节点
+    下面添加flag节点即可。format 可以选择多个类型 值 用  | 连接即可.
+比如：
+<attr name="attrname" format="flags">
+      <flag name="a" value="0"/>
+      <flag name="b" value="1"/>
+      <flag name="c" value="2"/>
+      <flag name="d" value="3"/>
+</attr>
+
+使用：app:attrname="a|b|c"
+可以使用 | 连接多个值
+-->

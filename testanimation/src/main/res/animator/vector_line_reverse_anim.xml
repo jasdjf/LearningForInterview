@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<objectAnimator xmlns:android="http://schemas.android.com/apk/res/android"
+    android:duration="1000"
+                android:propertyName="trimPathStart"
+                android:valueFrom="0"
+                android:valueTo="1"
+                android:valueType="floatType"
+    >
+<!--android:startOffset="1000"-->
+    <!--android:propertyName="pathData"
+    android:valueFrom="M148,47 L0,47"
+    android:valueTo="M148,47  L148,47"
+    android:valueType="pathType"-->
+</objectAnimator>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/vector_search_line"
+        android:state_activated="false"
+          android:id="@+id/start"/>
+
+    <item android:drawable="@drawable/vector_search_line_reverse"
+          android:state_activated="true"
+        android:id="@+id/reverse"/>
+
+    <transition
+        android:fromId="@id/start"
+        android:toId="@id/reverse"
+        android:drawable="@drawable/src_vector_drawable"/>
+
+    <transition
+        android:fromId="@id/reverse"
+        android:toId="@id/start"
+        android:drawable="@drawable/src_vector_drawable_reverse"/>
+</animated-selector>
